@@ -12,5 +12,7 @@ namespace _2prepparcial.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<_2prepparcial.Models.Country> Countries { get; set; }
     }
 }
